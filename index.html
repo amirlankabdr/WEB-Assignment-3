@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PC Tech Hub</title>
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#home">PC Tech Hub</a>
+
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menu"
+                aria-controls="menu"
+                aria-expanded="false"
+                aria-label="Open navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#parts">Computer parts</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#computers">PC types</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#questions">Questions</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+
+        <section id="home" class="intro py-5">
+            <div class="container">
+                <div class="row align-items-center g-4">
+
+                    <div class="col-md-7 order-1">
+                        <h1>PC Tech Hub</h1>
+
+                        <p>
+                            This website explains basic computer parts
+                            and different types of PCs.
+                        </p>
+
+                        <p>
+                            If you are choosing your first computer,
+                            start by deciding what you need it for.
+                        </p>
+
+                        <a href="#computers" class="btn btn-primary">
+                            View PC types
+                        </a>
+                    </div>
+
+                    <div class="col-md-5 order-2">
+                        <div class="intro-box p-4">
+                            <h2 class="h4">Before buying a PC</h2>
+
+                            <ul class="mb-0">
+                                <li>Choose your budget.</li>
+                                <li>Check the programs you need.</li>
+                                <li>Compare the specifications.</li>
+                                <li>Check upgrade options.</li>
+                            </ul>
+
+                            <p class="d-none d-md-block mt-3 mb-0 text-secondary">
+                                The most expensive PC is not always
+                                the best choice for your needs.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="parts" class="parts-section">
+            <div class="parts-wrapper">
+                <h2>Computer parts</h2>
+
+                <p class="parts-description">
+                    Three parts you will see in most PC specifications.
+                </p>
+
+                <div class="parts-grid">
+
+                    <article class="part">
+                        <h3>Processor</h3>
+
+                        <p>
+                            The processor, or CPU, carries out instructions.
+                            It is important for running programs and
+                            completing calculations.
+                        </p>
+                    </article>
+
+                    <article class="part">
+                        <h3>RAM</h3>
+
+                        <p>
+                            RAM temporarily stores data that programs
+                            are using. More RAM can help when working
+                            with several programs at once.
+                        </p>
+                    </article>
+
+                    <article class="part">
+                        <h3>Storage</h3>
+
+                        <p>
+                            Storage keeps your files and programs.
+                            An SSD usually loads the operating system
+                            and applications faster than a hard drive.
+                        </p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="computers" class="bg-light py-5">
+            <div class="container">
+                <h2>Types of PCs</h2>
+
+                <p class="mb-4">
+                    Different tasks need different hardware.
+                </p>
+
+                <div class="row g-4">
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <article class="card h-100">
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title h5">Study PC</h3>
+
+                                <p class="card-text">
+                                    Used for assignments, video calls,
+                                    browsing, and basic programming.
+                                </p>
+
+                                <ul class="ps-3">
+                                    <li>Entry-level or mid-range CPU</li>
+                                    <li>Enough RAM for your programs</li>
+                                    <li>SSD for files and applications</li>
+                                </ul>
+
+                                <p class="text-secondary mt-auto mb-0">
+                                    Integrated graphics may be enough.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <article class="card h-100">
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title h5">Gaming PC</h3>
+
+                                <p class="card-text">
+                                    Used for games. The parts you need
+                                    depend on the games and screen resolution.
+                                </p>
+
+                                <ul class="ps-3">
+                                    <li>CPU suited to your games</li>
+                                    <li>Dedicated graphics card</li>
+                                    <li>Enough storage for game files</li>
+                                </ul>
+
+                                <p class="text-secondary mt-auto mb-0">
+                                    Check the requirements of your games.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <article class="card h-100">
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title h5">Editing PC</h3>
+
+                                <p class="card-text">
+                                    Used for editing photos, videos,
+                                    and other demanding projects.
+                                </p>
+
+                                <ul class="ps-3">
+                                    <li>CPU suited to editing software</li>
+                                    <li>Extra RAM for larger projects</li>
+                                    <li>Fast storage and backup space</li>
+                                </ul>
+
+                                <p class="text-secondary mt-auto mb-0">
+                                    Hardware needs depend on your software.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="questions" class="py-5">
+            <div class="container">
+                <h2 class="mb-4">Common questions</h2>
+
+                <div class="accordion" id="faq">
+
+                    <div class="accordion-item">
+                        <h3 class="accordion-header">
+                            <button
+                                class="accordion-button"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#question1"
+                                aria-expanded="true"
+                                aria-controls="question1"
+                            >
+                                Is RAM the same as storage?
+                            </button>
+                        </h3>
+
+                        <div
+                            id="question1"
+                            class="accordion-collapse collapse show"
+                            data-bs-parent="#faq"
+                        >
+                            <div class="accordion-body">
+                                No. RAM holds data temporarily while programs
+                                are running. Storage keeps files even when
+                                the computer is turned off.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h3 class="accordion-header">
+                            <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#question2"
+                                aria-expanded="false"
+                                aria-controls="question2"
+                            >
+                                Can I upgrade a computer later?
+                            </button>
+                        </h3>
+
+                        <div
+                            id="question2"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#faq"
+                        >
+                            <div class="accordion-body">
+                                Many desktop computers can be upgraded.
+                                You should check whether the new parts
+                                are compatible. Laptops usually have
+                                fewer upgrade options.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-dark text-white py-3">
+        <div class="container d-flex flex-column flex-md-row justify-content-between gap-2">
+            <p class="mb-0">PC Tech Hub, 2026</p>
+            <a href="#home" class="text-white">Back to top</a>
+        </div>
+    </footer>
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    ></script>
+
+</body>
+</html>
